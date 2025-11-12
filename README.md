@@ -1,5 +1,6 @@
 License: [MIT](LICENSE) · SPDX: MIT
-# 🕵️‍♂️ Modular Web Vulnerability Scanner (Educational)
+# WebFerseners
+## 🕵️‍♂️ Modular Web Vulnerability Scanner (Educational)
 
 A modular, Python-based **web vulnerability scanner** built for learning and authorized testing.  
 Detects **SQL Injection** (error & time), **Reflected XSS**, **Missing Security Headers**, and **sensitive directories**.  
