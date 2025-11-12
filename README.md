@@ -25,17 +25,6 @@ Optional integration with **sqlmap** for deeper SQLi confirmation.
 
 ---
 
-## Repo layout
-
-.
-├── webscanner.py # Main scanner script
-├── webscanner_with_sqlmap.py # Optional script with sqlmap integration (if included)
-├── webscanner/ # optional directory with helper files
-│ └── big.txt # builtin wordlist for directory enumeration
-├── requirements.txt
-└── README.md
-
-
 ## Quick Start (Linux)
 
 > Tested on Debian/Ubuntu/Kali. Commands assume `bash` and Python 3.8+.
@@ -64,7 +53,7 @@ sudo apt install sqlmap -y
 ```
 Option B — Install latest from GitHub (recommended):
 
-``````bash
+```bash
 git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git
 # optional: make sqlmap runnable from anywhere
 sudo ln -s "$(pwd)/sqlmap/sqlmap.py" /usr/local/bin/sqlmap
